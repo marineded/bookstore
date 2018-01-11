@@ -1,0 +1,10 @@
+# Local server
+server:
+  # port is used by spring-boot-admin
+  port: 8080
+  contextPath: /bookstore
+ 
+spring :
+  datasource:
+    password: Mysq.2084
+    url: jdbc:mysql://localhost:3306/bookbd?user=root
